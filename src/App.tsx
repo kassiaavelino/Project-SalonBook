@@ -1,14 +1,11 @@
 import './index.css'
+import AppRoutes from '../src/routes/routes'
+
 
 function App() {
-
-  return (
-    <>
-    {/* Aqui iremos adicionar todas as telas com as suas respectivas rotas.
+  {/* Aqui iremos adicionar todas as telas com as suas respectivas rotas.
         Não iremos criar as paginas diretamente nesse arquivo */}
-      <h2>Inicio da aplicação</h2>
-    </>
-  )
+  return <AppRoutes />;
 }
 
 export default App
